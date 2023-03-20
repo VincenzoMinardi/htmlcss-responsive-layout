@@ -10,9 +10,10 @@ nav{
 }
 /* NAV */
  .container-small{
-    max-width: 1000px;
+    max-width: 1200px;
     margin-inline: auto;
     padding-inline: 1rem; 
+    padding: 2rem;
 }
 
 .container-flex{
@@ -109,7 +110,120 @@ nav{
 
 .content2{
     margin-left: 20px;
-}  
+}
+
+/* Main */
+.background{
+    background-color: rgb(151, 146, 228);
+   
+} 
+
+.container-flex2{
+    display: flex;
+}
+
+.img-size{
+  height: 300px;
+}
+
+.cont-text2{
+    color: white;
+    margin-top: 5rem;
+}
+
+.container-img-app{
+   margin: 4rem;
+    margin-left: 2rem;
+    border-radius: 1rem;
+    
+     background-color: white;
+}
+
+.space{
+    padding: 2rem;
+}
+
+.color {
+    color: black;
+}
+
+.partners{
+    margin: auto;
+    text-align: center;
+    padding: 2rem;
+}
+
+.introduction-partners{
+    text-align: center;
+}
+
+.color-title{
+    color: rgb(151, 146, 228);
+    padding-top: 2rem;
+}
+
+.paragraf-partners{
+    padding-top: 2rem;
+}
+
+.img-size2 {
+  padding: 1rem;
+  object-fit: cover;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.container-partners{
+    display: flex;
+    align-items: center;
+    background-color: rgb(151, 146, 228);
+    border-radius: 1rem;
+    margin-top: 2rem;
+}
+
+.title-benefits{
+    color: white;
+    text-align: center;
+    padding: 2rem;
+}
+
+.distance{
+    margin-top: 4rem;
+}
+
+.container-flex3{
+    display: flex;
+    flex-wrap: wrap;
+    gap: .8rem;
+
+}
+
+.square-benefits{
+    flex-basis: calc(33% - 1rem / 3);
+    background-color: white;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.number{
+    font-size: 3rem;
+
+}
+
+.title2-benefits, .number{
+    color: rgb(151, 146, 228);
+}
+
+.button-benefits{
+    margin-top: 2rem;
+    background-color: rgb(151, 146, 228);
+    color: white;
+    height:30px;
+    width: 100px;
+   border: none;
+   border-radius: 1.5rem;
+}
 
 
 
