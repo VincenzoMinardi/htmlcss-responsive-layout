@@ -45,29 +45,32 @@ nav{
 }
 /* HEADER */
 
-.squares{
+ .squares{
     display: flex;
     flex-wrap: wrap;
     padding: 2rem;
-    gap: 1rem;
+    
 }
 
 .square-big{
-    padding-inline:45px;
+    margin: .5rem;
+    padding-inline:50px;
     display: flex;
-    flex-basis: calc((40% - 2 * 1rem) / 3);
+    flex-basis: calc(66.666% - 1rem);
     background-color: rgb(181, 221, 255);
     border-radius: 1rem;
 }
 
 .square{
+    margin: .5rem;
     text-align: center;
+    padding: 25px;
     border-radius: 1rem;
-    flex: calc((60% -  1rem) / 3);
+    flex: calc(33.333% - 1rem);
     background-color: rgb(181, 221, 255);
 }
 
-.content{
+.content1{
     max-width: 60%;
     padding-inline: 2rem;
 }
@@ -103,6 +106,19 @@ nav{
 .title2{
    color: rgb(0, 132, 253);
 }
+
+.content2{
+    margin-left: 20px;
+}  
+
+
+
+
+
+
+
+
+
 
 
 
