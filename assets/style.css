@@ -66,6 +66,7 @@ nav{
     margin: .5rem;
     padding-inline:50px;
     display: flex;
+    
     flex-basis: calc(66.666% - 1rem);
     background-color: rgb(181, 221, 255);
     border-radius: 1rem;
@@ -336,19 +337,28 @@ nav{
     }
 
     nav{
-        width: 551px;
+        
     }
 
     .background{
-        width: 551px;
+        
     }
 
     .background-back{
-        width: 551px;
+       
     }
 
     .container-partners{
         margin-left: 2rem;
+    }
+
+    .square-big{
+        flex-direction: column;
+        margin-left: 0;
+    }
+
+    .square{
+        flex-basis: 100%;
     }
 }
 
