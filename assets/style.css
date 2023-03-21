@@ -38,11 +38,19 @@ nav{
     gap: 1.5rem;
 }
 
+.click:hover{
+    background-color: lightgray;
+}
+
 .button-nav{
     border-radius: 2rem;
     height: 30px;
     width: 100px;
     border: none;
+}
+
+.bars{
+    display: none;
 }
 /* HEADER */
 
@@ -262,6 +270,57 @@ nav{
     border: none;
     font-size: 1.5rem;
     color: rgb(151, 146, 228);
+}
+
+.background-back{
+    background-color: rgb(51, 51, 51);
+}
+
+.boolean{
+    color: rgb(151, 146, 228);
+}
+
+/*******RESPONSIVE *******/
+
+@media (max-width: 980px){
+    .container-small{
+        max-width: 810px;
+    }
+    
+    .cont-text{
+        display: none;
+    }
+    .bars{
+        display: flex;
+    }
+
+    .container-flex2{
+        flex-direction: column;
+    }
+
+    .img-size{
+        margin-left: 6rem;
+    }
+
+    .container-flex3{
+        justify-content: center;
+    }
+
+    @media (max-width:550px) {
+        .container-small{
+            max-width: 550px;
+        }
+
+        nav{
+            max-width: 550px;
+        }
+
+        .squares{
+            max-width: 550px;
+        }
+        
+    }
+    
 }
 
 
