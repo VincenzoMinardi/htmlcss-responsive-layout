@@ -211,7 +211,7 @@ nav{
 
 }
 
-.title2-benefits, .number{
+.title2-benefits, .number, .title-about, .text-img{
     color: rgb(151, 146, 228);
 }
 
@@ -224,6 +224,48 @@ nav{
    border: none;
    border-radius: 1.5rem;
 }
+.container-flex4{
+    display: flex;
+}
+
+.cont-img-about{
+    margin-left: 2rem;
+}
+
+.about{
+    width: 200px;
+}
+
+.container-smaller{
+    max-width: 600px;
+    margin-inline: auto;
+    padding-inline: 1rem; 
+}
+
+.cont-starter{
+    text-align: center;
+}
+
+.font, .color-paragraf, a{
+    color: white;
+}
+
+.font-and-color{
+    font-size: 5rem;
+    color: rgb(244, 189, 106);
+}
+
+.big-button{
+    height: 60px;
+    width: 250px;
+    border-radius: 2rem;
+    border: none;
+    font-size: 1.5rem;
+    color: rgb(151, 146, 228);
+}
+
+
+
 
 
 
